@@ -1,1 +1,3 @@
-# cc_jobs
+# ComputeCanada
+
+sample job scripts
