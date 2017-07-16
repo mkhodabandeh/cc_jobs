@@ -4,7 +4,7 @@
 #SBATCH --mem=4000M               # memory per node
 #SBATCH --time=0-01:00            # time (DD-HH:MM)
 #SBATCH --output=%x_%a.out        # %x job name, %j job id, %A array master's job id, %a array id
-#SBATCH -J "Train_MNIST"          # job name
+#SBATCH --job-name="Train_MNIST"          # job name
 #SBATCH --array=0-2               # job array of size 3
 
 pids=""
